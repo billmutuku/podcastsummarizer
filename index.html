@@ -1,0 +1,29 @@
+<!-- Podcast Summarizer UI -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Podcast Summarizer</title>
+    <link rel="stylesheet" href="styles.css">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+</head>
+<body>
+    <div class="container">
+        <h1>AI Podcast Summarizer</h1>
+        <p>Just watched a podcast or you are yet to watch and need the summary? I've got you! Just paste the link here.</p>
+        
+        <input type="text" id="podcastLink" placeholder="Paste Spotify or YouTube link...">
+        <button id="summarizeButton">Summarize</button>
+        
+        <div id="summaryOutput" class="hidden">
+            <h2>Summary:</h2>
+            <p id="summaryText">Your summary will appear here...</p>
+        </div>
+    </div>
+    <footer>
+        <p>© 2025 Bill Mutuku. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
