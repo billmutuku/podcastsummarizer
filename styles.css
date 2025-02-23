@@ -60,3 +60,9 @@ body {
     text-align: center;
     padding: 10px;
 }
+
+.container p{
+	font-size: 1.2rem;
+  margin-bottom: 25px;
+  animation: fadeIn 2s ease-in-out;
+}
